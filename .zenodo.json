@@ -1,0 +1,49 @@
+{
+  "title": "Linear coordinate presentations of Lotka–Volterra tree systems and a proof of van der Kamp's tree conjecture",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p><strong>Unrefereed research candidate.</strong> A Lotka–Volterra tree system (Quispel, Tapley, McLaren and van der Kamp) is a quadratic differential equation with 3n−2 parameters and one extra invariant hyperplane (linear Darboux polynomial) for each edge of a tree on n vertices. Van der Kamp (J. Dyn. Diff. Equat. 38 (2026) 1331–1352; arXiv:2411.18264, Conjecture 12) conjectured that, for generic parameters, nonisomorphic trees are not LV-equivalent, i.e. their systems are never related by a linear change of variables.</p><p>This paper proves the conjecture in a stronger, one-sided form: a generic system of one tree family is never linearly conjugate to any system, generic or special, of the family of a nonisomorphic tree (proof). The all-parameter extension fails, because two tree families can share a hyperplane of special systems (proof); this does not affect the conjecture. The key invariant is the complete set of linear Darboux polynomials: exactly 2n−1 rays, the graphic arrangement of the cone over the tree, if and only if an explicit polynomial in the parameters is nonzero (proof). Consequences: every Lotka–Volterra coordinate presentation (one per spanning tree of the cone), the symmetry group identifying them, a reduction to decorated rooted forests, closed counts for paths, (F_{2n−2}+F_{n−1})/2, and caterpillars, the normalised family as the quadratic vector fields tangent to the arrangement, a recognition test, and transfer to Kahan maps (proofs). Exact computations check the statements for small trees and reproduce van der Kamp's Table 7 for n ≤ 8.</p><p>The archive contains the manuscript (PDF and LaTeX), four exact verification programs with committed deterministic outputs, a replay script comparing every output byte for byte, semantic negative controls, claim records and SHA-256 sums. Assurance: written proofs; exact checks; producer-side replay including a clean full replay in a separate copy; internal AI-assisted review, AI-assisted adversarial review (OpenAI gpt-5.6-sol) and a verification re-review. This is not peer review, independent reproduction or formal verification. Creator: Anonymous. Prose, manuscript and original data CC0-1.0; code MIT.</p>",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "version": "1.0.0-candidate",
+  "doi": "10.5281/zenodo.23564794",
+  "publication_date": "2026-10-22",
+  "access_right": "open",
+  "license": "cc-zero",
+  "keywords": [
+    "Lotka–Volterra systems",
+    "Darboux polynomials",
+    "superintegrable systems",
+    "hyperplane arrangements",
+    "graphic matroids",
+    "spanning trees",
+    "linear conjugacy",
+    "Kahan discretisation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/lotka-volterra-tree-presentations/tree/v1.0.0-candidate",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://evidencepress.org/releases/lotka-volterra-tree-presentations/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1007/s10884-025-10446-2",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "arXiv:2411.18264",
+      "relation": "references",
+      "scheme": "arxiv"
+    }
+  ],
+  "notes": "Original code (Python scripts, CI workflow) is released under the MIT licence; see LICENSES.md in the archive. Short quotations of the source remain the source author's text."
+}

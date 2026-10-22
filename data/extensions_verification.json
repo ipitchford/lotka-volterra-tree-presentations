@@ -1,0 +1,2334 @@
+{
+  "arithmetic": "Python integers and fractions.Fraction; sympy for symbolic identities",
+  "checks": {
+    "a_cofactor_lemma_and_triangles": {
+      "failure_count": 0,
+      "failures": [],
+      "label": "exact computation",
+      "per_n": {
+        "2": {
+          "compatible_pairs": 6,
+          "points": 2,
+          "ray_pairs": 6,
+          "trees": 1
+        },
+        "3": {
+          "compatible_pairs": 12,
+          "points": 2,
+          "ray_pairs": 20,
+          "trees": 1
+        },
+        "4": {
+          "compatible_pairs": 36,
+          "points": 4,
+          "ray_pairs": 84,
+          "trees": 2
+        },
+        "5": {
+          "compatible_pairs": 72,
+          "points": 6,
+          "ray_pairs": 216,
+          "trees": 3
+        },
+        "6": {
+          "compatible_pairs": 180,
+          "points": 12,
+          "ray_pairs": 660,
+          "trees": 6
+        },
+        "7": {
+          "compatible_pairs": 396,
+          "points": 22,
+          "ray_pairs": 1716,
+          "trees": 11
+        }
+      },
+      "ray_pairs_checked": 2702,
+      "rays_checked": 516,
+      "statement": "At generic exact points the complete ray set is D_T; every ray cofactor equals the lemma formula and satisfies the Darboux identity; c(e)-c(f) lies in span(l_e,l_f) iff e,f lie in a common triangle {s_u,s_v,r_uv}.",
+      "status": "PASS"
+    },
+    "b_one_sided_rigidity": {
+      "failure_count": 0,
+      "failures": [],
+      "label": "exact computation",
+      "per_n": {
+        "2": {
+          "bases": 6,
+          "compat_graph_isomorphic_to_T": 6,
+          "compat_graph_spanning_tree": 6,
+          "family_memberships": 6,
+          "labelled_target_trees_tested": 6,
+          "points": 2,
+          "trees": 1
+        },
+        "3": {
+          "bases": 16,
+          "compat_graph_isomorphic_to_T": 8,
+          "compat_graph_spanning_tree": 8,
+          "family_memberships": 8,
+          "labelled_target_trees_tested": 48,
+          "points": 2,
+          "trees": 1
+        },
+        "4": {
+          "bases": 82,
+          "compat_graph_isomorphic_to_T": 24,
+          "compat_graph_spanning_tree": 24,
+          "family_memberships": 24,
+          "labelled_target_trees_tested": 1312,
+          "points": 4,
+          "trees": 2
+        },
+        "5": {
+          "bases": 310,
+          "compat_graph_isomorphic_to_T": 56,
+          "compat_graph_spanning_tree": 56,
+          "family_memberships": 56,
+          "labelled_target_trees_tested": 38750,
+          "points": 6,
+          "trees": 3
+        },
+        "6": {
+          "bases": 1558,
+          "compat_graph_isomorphic_to_T": 168,
+          "compat_graph_spanning_tree": 168,
+          "family_memberships": 0,
+          "labelled_target_trees_tested": 0,
+          "points": 12,
+          "trees": 6
+        }
+      },
+      "statement": "For every cone spanning tree S at generic exact points (n<=6): the n-subsets of rays that are linearly independent are exactly the cone spanning trees; the compatibility graph on S equals the set of size-2 fundamental paths (computed linearly and checked against graph fundamental paths); whenever it is a spanning tree it is isomorphic to T. For n<=5, the S-conjugated matrix lies in L_{T'} (labelled T' via Pruefer codes) iff every edge of T' is compatible, and then T' is isomorphic to T.",
+      "status": "PASS"
+    },
+    "c_sharpness_and_strata": {
+      "failure_count": 0,
+      "failures": [],
+      "iff_points": {
+        "n=2 (())": {
+          "delta_nonzero": 1269,
+          "delta_zero": 731,
+          "mismatches": 0,
+          "points": 2000,
+          "tree_form": 1269
+        },
+        "n=3 (()())": {
+          "delta_nonzero": 587,
+          "delta_zero": 1413,
+          "mismatches": 0,
+          "points": 2000,
+          "tree_form": 587
+        },
+        "n=4 ((())())": {
+          "delta_nonzero": 212,
+          "delta_zero": 1788,
+          "mismatches": 0,
+          "points": 2000,
+          "tree_form": 212
+        },
+        "n=4 (()()())": {
+          "delta_nonzero": 109,
+          "delta_zero": 1891,
+          "mismatches": 0,
+          "points": 2000,
+          "tree_form": 109
+        },
+        "n=5 ((()())())": {
+          "delta_nonzero": 55,
+          "delta_zero": 1945,
+          "mismatches": 0,
+          "points": 2000,
+          "tree_form": 55
+        },
+        "n=5 ((())(()))": {
+          "delta_nonzero": 100,
+          "delta_zero": 1900,
+          "mismatches": 0,
+          "points": 2000,
+          "tree_form": 100
+        },
+        "n=5 (()()()())": {
+          "delta_nonzero": 14,
+          "delta_zero": 1986,
+          "mismatches": 0,
+          "points": 2000,
+          "tree_form": 14
+        }
+      },
+      "label": "exact computation",
+      "ray_counts": {
+        "d n=2": [
+          2
+        ],
+        "d n=3": [
+          4
+        ],
+        "d n=4": [
+          6
+        ],
+        "d n=5": [
+          8
+        ],
+        "d n=6": [
+          10
+        ],
+        "minus n=3": [
+          6
+        ],
+        "minus n=4": [
+          8
+        ],
+        "minus n=5": [
+          10
+        ],
+        "minus n=6": [
+          12
+        ],
+        "plus n=3": [
+          6
+        ],
+        "plus n=4": [
+          8
+        ],
+        "plus n=5": [
+          10
+        ],
+        "plus n=6": [
+          12
+        ]
+      },
+      "statement": "For every tree n<=6 and every factor of Delta_T, at exact points where exactly that factor vanishes: d_{v->j}=0 gives exactly the coordinates and the other n-2 edge rays (2n-2 rays); d_{u->j}=d_{v->j} gives D_T plus P_uj-P_vj with support {u,v} (2n rays); d_{u->j}=-d_{v->j} gives D_T plus a ray proportional to P_uj - d_{j->v} x_v with support {u,j,v} (2n rays); no pencils. d_{u->v}=d_{v->u}=0 gives a pencil on {u,v}. On 2000 small-integer points per tree (n<=5, entries in -2..2) tree form holds iff Delta_T != 0.",
+      "stats": {
+        "equal_points": 112,
+        "factor_points": 428,
+        "opposite_points": 112,
+        "pencil_points": 51,
+        "zero_d_points": 204
+      },
+      "status": "PASS"
+    },
+    "d_family_intersection": {
+      "failure_count": 0,
+      "failures": [],
+      "general_cases_per_n": {
+        "3": 2,
+        "4": 10,
+        "5": 26,
+        "6": 74,
+        "7": 176
+      },
+      "general_cases_total": 288,
+      "label": "exact computation",
+      "p4_example": {
+        "T": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "T_prime": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "dim_L_T": 10,
+        "dim_intersection": 9,
+        "integer_point_matrix": [
+          [
+            "1",
+            "6",
+            "7",
+            "9"
+          ],
+          [
+            "5",
+            "2",
+            "7",
+            "9"
+          ],
+          [
+            "5",
+            "6",
+            "3",
+            "9"
+          ],
+          [
+            "5",
+            "6",
+            "8",
+            "4"
+          ]
+        ],
+        "integer_point_params": {
+          "a": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "b": {
+            "b_0->1": 6,
+            "b_1->0": 5,
+            "b_1->2": 7,
+            "b_2->1": 6,
+            "b_2->3": 9,
+            "b_3->2": 8
+          }
+        }
+      },
+      "statement": "P4 = 0-1-2-3 and T' = {02,12,23}: L_T cap L_T' = {A in L_T : b_{0->1} = b_{2->1}}, dim L_T = 10, dim of intersection 9 = 3n-3. For all trees n<=7, every vertex j and ordered pair of distinct neighbours (u,v): T' = T - uj + uv is a tree, dim(L_T cap L_T') = 3n-3 and the intersection is cut out in L_T by b_{u->j} = b_{v->j}.",
+      "status": "PASS"
+    },
+    "e_normalised_family_tangent_space": {
+      "failure_count": 0,
+      "failures": [],
+      "label": "exact computation",
+      "statement": "For every tree n<=6, the homogeneous quadratic vector fields on K^n tangent to every hyperplane x_i=0 and x_u-x_v=0 (uv in E) form a space of dimension 2n-1 equal to the LV fields with A in L_T and d_{u->v}=d_{v->u} on every edge.",
+      "status": "PASS",
+      "trees": [
+        {
+          "n": 2,
+          "normalised_LV_dim": 3,
+          "sum_dim": 3,
+          "tangent_dim": 3,
+          "tree_code": "(())",
+          "unknowns": 6
+        },
+        {
+          "n": 3,
+          "normalised_LV_dim": 5,
+          "sum_dim": 5,
+          "tangent_dim": 5,
+          "tree_code": "(()())",
+          "unknowns": 18
+        },
+        {
+          "n": 4,
+          "normalised_LV_dim": 7,
+          "sum_dim": 7,
+          "tangent_dim": 7,
+          "tree_code": "((())())",
+          "unknowns": 40
+        },
+        {
+          "n": 4,
+          "normalised_LV_dim": 7,
+          "sum_dim": 7,
+          "tangent_dim": 7,
+          "tree_code": "(()()())",
+          "unknowns": 40
+        },
+        {
+          "n": 5,
+          "normalised_LV_dim": 9,
+          "sum_dim": 9,
+          "tangent_dim": 9,
+          "tree_code": "((()())())",
+          "unknowns": 75
+        },
+        {
+          "n": 5,
+          "normalised_LV_dim": 9,
+          "sum_dim": 9,
+          "tangent_dim": 9,
+          "tree_code": "((())(()))",
+          "unknowns": 75
+        },
+        {
+          "n": 5,
+          "normalised_LV_dim": 9,
+          "sum_dim": 9,
+          "tangent_dim": 9,
+          "tree_code": "(()()()())",
+          "unknowns": 75
+        },
+        {
+          "n": 6,
+          "normalised_LV_dim": 11,
+          "sum_dim": 11,
+          "tangent_dim": 11,
+          "tree_code": "(((()))(()))",
+          "unknowns": 126
+        },
+        {
+          "n": 6,
+          "normalised_LV_dim": 11,
+          "sum_dim": 11,
+          "tangent_dim": 11,
+          "tree_code": "((()()())())",
+          "unknowns": 126
+        },
+        {
+          "n": 6,
+          "normalised_LV_dim": 11,
+          "sum_dim": 11,
+          "tangent_dim": 11,
+          "tree_code": "((()())(()))",
+          "unknowns": 126
+        },
+        {
+          "n": 6,
+          "normalised_LV_dim": 11,
+          "sum_dim": 11,
+          "tangent_dim": 11,
+          "tree_code": "((()())()())",
+          "unknowns": 126
+        },
+        {
+          "n": 6,
+          "normalised_LV_dim": 11,
+          "sum_dim": 11,
+          "tangent_dim": 11,
+          "tree_code": "((())(())())",
+          "unknowns": 126
+        },
+        {
+          "n": 6,
+          "normalised_LV_dim": 11,
+          "sum_dim": 11,
+          "tangent_dim": 11,
+          "tree_code": "(()()()()())",
+          "unknowns": 126
+        }
+      ]
+    },
+    "f_caterpillar_formula": {
+      "caterpillars_total": 142,
+      "failure_count": 0,
+      "failures": [],
+      "label": "exact computation",
+      "per_n": {
+        "10": {
+          "caterpillars": 71,
+          "core_matches": 71,
+          "non_caterpillars": 35,
+          "orbit_checked": 0,
+          "orbit_matches": 0
+        },
+        "2": {
+          "caterpillars": 0,
+          "core_matches": 0,
+          "non_caterpillars": 1,
+          "orbit_checked": 0,
+          "orbit_matches": 0
+        },
+        "3": {
+          "caterpillars": 0,
+          "core_matches": 0,
+          "non_caterpillars": 1,
+          "orbit_checked": 0,
+          "orbit_matches": 0
+        },
+        "4": {
+          "caterpillars": 1,
+          "core_matches": 1,
+          "non_caterpillars": 1,
+          "orbit_checked": 1,
+          "orbit_matches": 1
+        },
+        "5": {
+          "caterpillars": 2,
+          "core_matches": 2,
+          "non_caterpillars": 1,
+          "orbit_checked": 2,
+          "orbit_matches": 2
+        },
+        "6": {
+          "caterpillars": 5,
+          "core_matches": 5,
+          "non_caterpillars": 1,
+          "orbit_checked": 5,
+          "orbit_matches": 5
+        },
+        "7": {
+          "caterpillars": 9,
+          "core_matches": 9,
+          "non_caterpillars": 2,
+          "orbit_checked": 9,
+          "orbit_matches": 9
+        },
+        "8": {
+          "caterpillars": 19,
+          "core_matches": 19,
+          "non_caterpillars": 4,
+          "orbit_checked": 19,
+          "orbit_matches": 19
+        },
+        "9": {
+          "caterpillars": 35,
+          "core_matches": 35,
+          "non_caterpillars": 12,
+          "orbit_checked": 35,
+          "orbit_matches": 35
+        }
+      },
+      "statement": "For every caterpillar (core a path v_1..v_m, m>=2) with n<=10, the closed formula q (R(w) = det(L_{P_k}+diag w), with the palindrome correction) equals the decorated-core count of lv_core_count.py, and for n<=9 equals the cone-basis orbit count of verify.py.",
+      "status": "PASS"
+    },
+    "g_worked_P3_example": {
+      "concrete": {
+        "A": [
+          [
+            "0",
+            "2",
+            "4"
+          ],
+          [
+            "1",
+            "0",
+            "4"
+          ],
+          [
+            "1",
+            "3",
+            "0"
+          ]
+        ],
+        "Delta": -120,
+        "cone_bases": [
+          {
+            "basis_rays": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "cone_edges_paper_labels": [
+              "{0,1}",
+              "{0,2}",
+              "{0,3}"
+            ],
+            "fundamental_supports_z_indices": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "nonbasis_rays_in_z_coordinates": [
+              {
+                "in_z_coordinates": [
+                  "1",
+                  "-2",
+                  "0"
+                ],
+                "ray": "P12"
+              },
+              {
+                "in_z_coordinates": [
+                  "0",
+                  "3",
+                  "-4"
+                ],
+                "ray": "P23"
+              }
+            ]
+          },
+          {
+            "basis_rays": [
+              "x1",
+              "x3",
+              "P12"
+            ],
+            "cone_edges_paper_labels": [
+              "{0,1}",
+              "{0,3}",
+              "{1,2}"
+            ],
+            "fundamental_supports_z_indices": [
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ]
+            ],
+            "nonbasis_rays_in_z_coordinates": [
+              {
+                "in_z_coordinates": [
+                  "1/2",
+                  "0",
+                  "-1/2"
+                ],
+                "ray": "x2"
+              },
+              {
+                "in_z_coordinates": [
+                  "3/2",
+                  "-4",
+                  "-3/2"
+                ],
+                "ray": "P23"
+              }
+            ]
+          },
+          {
+            "basis_rays": [
+              "x2",
+              "x3",
+              "P12"
+            ],
+            "cone_edges_paper_labels": [
+              "{0,2}",
+              "{0,3}",
+              "{1,2}"
+            ],
+            "fundamental_supports_z_indices": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "nonbasis_rays_in_z_coordinates": [
+              {
+                "in_z_coordinates": [
+                  "2",
+                  "0",
+                  "1"
+                ],
+                "ray": "x1"
+              },
+              {
+                "in_z_coordinates": [
+                  "3",
+                  "-4",
+                  "0"
+                ],
+                "ray": "P23"
+              }
+            ]
+          },
+          {
+            "basis_rays": [
+              "x1",
+              "x2",
+              "P23"
+            ],
+            "cone_edges_paper_labels": [
+              "{0,1}",
+              "{0,2}",
+              "{2,3}"
+            ],
+            "fundamental_supports_z_indices": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "nonbasis_rays_in_z_coordinates": [
+              {
+                "in_z_coordinates": [
+                  "0",
+                  "3/4",
+                  "-1/4"
+                ],
+                "ray": "x3"
+              },
+              {
+                "in_z_coordinates": [
+                  "1",
+                  "-2",
+                  "0"
+                ],
+                "ray": "P12"
+              }
+            ]
+          },
+          {
+            "basis_rays": [
+              "x1",
+              "x3",
+              "P23"
+            ],
+            "cone_edges_paper_labels": [
+              "{0,1}",
+              "{0,3}",
+              "{2,3}"
+            ],
+            "fundamental_supports_z_indices": [
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ]
+            ],
+            "nonbasis_rays_in_z_coordinates": [
+              {
+                "in_z_coordinates": [
+                  "0",
+                  "4/3",
+                  "1/3"
+                ],
+                "ray": "x2"
+              },
+              {
+                "in_z_coordinates": [
+                  "1",
+                  "-8/3",
+                  "-2/3"
+                ],
+                "ray": "P12"
+              }
+            ]
+          },
+          {
+            "basis_rays": [
+              "x1",
+              "P12",
+              "P23"
+            ],
+            "cone_edges_paper_labels": [
+              "{0,1}",
+              "{1,2}",
+              "{2,3}"
+            ],
+            "fundamental_supports_z_indices": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                3
+              ]
+            ],
+            "nonbasis_rays_in_z_coordinates": [
+              {
+                "in_z_coordinates": [
+                  "1/2",
+                  "-1/2",
+                  "0"
+                ],
+                "ray": "x2"
+              },
+              {
+                "in_z_coordinates": [
+                  "3/8",
+                  "-3/8",
+                  "-1/4"
+                ],
+                "ray": "x3"
+              }
+            ]
+          },
+          {
+            "basis_rays": [
+              "x2",
+              "P12",
+              "P23"
+            ],
+            "cone_edges_paper_labels": [
+              "{0,2}",
+              "{1,2}",
+              "{2,3}"
+            ],
+            "fundamental_supports_z_indices": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "nonbasis_rays_in_z_coordinates": [
+              {
+                "in_z_coordinates": [
+                  "2",
+                  "1",
+                  "0"
+                ],
+                "ray": "x1"
+              },
+              {
+                "in_z_coordinates": [
+                  "3/4",
+                  "0",
+                  "-1/4"
+                ],
+                "ray": "x3"
+              }
+            ]
+          },
+          {
+            "basis_rays": [
+              "x3",
+              "P12",
+              "P23"
+            ],
+            "cone_edges_paper_labels": [
+              "{0,3}",
+              "{1,2}",
+              "{2,3}"
+            ],
+            "fundamental_supports_z_indices": [
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ]
+            ],
+            "nonbasis_rays_in_z_coordinates": [
+              {
+                "in_z_coordinates": [
+                  "8/3",
+                  "1",
+                  "2/3"
+                ],
+                "ray": "x1"
+              },
+              {
+                "in_z_coordinates": [
+                  "4/3",
+                  "0",
+                  "1/3"
+                ],
+                "ray": "x2"
+              }
+            ]
+          }
+        ],
+        "cone_basis_count": 8,
+        "d": {
+          "d_1->2": 2,
+          "d_2->1": 1,
+          "d_2->3": 4,
+          "d_3->2": 3
+        },
+        "edge_rays_integer_form": {
+          "P12": "x1 - 2*x2",
+          "P23": "3*x2 - 4*x3"
+        },
+        "hypergraph_class_count": 2,
+        "hypergraph_classes": [
+          {
+            "bases": [
+              [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              [
+                "x2",
+                "x3",
+                "P12"
+              ],
+              [
+                "x1",
+                "x2",
+                "P23"
+              ],
+              [
+                "x2",
+                "P12",
+                "P23"
+              ]
+            ],
+            "canonical_support_masks": [
+              3,
+              5
+            ]
+          },
+          {
+            "bases": [
+              [
+                "x1",
+                "x3",
+                "P12"
+              ],
+              [
+                "x1",
+                "x3",
+                "P23"
+              ],
+              [
+                "x1",
+                "P12",
+                "P23"
+              ],
+              [
+                "x3",
+                "P12",
+                "P23"
+              ]
+            ],
+            "canonical_support_masks": [
+              3,
+              7
+            ]
+          }
+        ],
+        "params": {
+          "a1": 0,
+          "a2": 0,
+          "a3": 0,
+          "b_1->2": 2,
+          "b_2->1": 1,
+          "b_2->3": 4,
+          "b_3->2": 3
+        },
+        "ray_count": 5,
+        "rays": [
+          {
+            "coefficients_x1_x2_x3": [
+              "1",
+              "0",
+              "0"
+            ],
+            "cofactor_x1_x2_x3": [
+              "0",
+              "2",
+              "4"
+            ],
+            "support_paper_labels": [
+              1
+            ]
+          },
+          {
+            "coefficients_x1_x2_x3": [
+              "1",
+              "-2",
+              "0"
+            ],
+            "cofactor_x1_x2_x3": [
+              "0",
+              "0",
+              "4"
+            ],
+            "support_paper_labels": [
+              1,
+              2
+            ]
+          },
+          {
+            "coefficients_x1_x2_x3": [
+              "0",
+              "1",
+              "0"
+            ],
+            "cofactor_x1_x2_x3": [
+              "1",
+              "0",
+              "4"
+            ],
+            "support_paper_labels": [
+              2
+            ]
+          },
+          {
+            "coefficients_x1_x2_x3": [
+              "0",
+              "1",
+              "-4/3"
+            ],
+            "cofactor_x1_x2_x3": [
+              "1",
+              "0",
+              "0"
+            ],
+            "support_paper_labels": [
+              2,
+              3
+            ]
+          },
+          {
+            "coefficients_x1_x2_x3": [
+              "0",
+              "0",
+              "1"
+            ],
+            "cofactor_x1_x2_x3": [
+              "1",
+              "3",
+              "0"
+            ],
+            "support_paper_labels": [
+              3
+            ]
+          }
+        ]
+      },
+      "failure_count": 0,
+      "failures": [],
+      "label": "exact computation",
+      "statement": "Worked P3 example (paper labels 1-2-3, zero-based 0-1-2): symbolic matrix, edge Darboux polynomials and Delta; concrete integer point with 5 rays, 8 cone bases, 2 hypergraph classes.",
+      "status": "PASS",
+      "symbolic": {
+        "A": [
+          [
+            "a1",
+            "b_12",
+            "b_23"
+          ],
+          [
+            "b_21",
+            "a2",
+            "b_23"
+          ],
+          [
+            "b_21",
+            "b_32",
+            "a3"
+          ]
+        ],
+        "Delta": "-(a1 - b_21)*(a2 - b_12)*(a2 - b_32)*(a3 - b_23)*(b_12 - b_32)*(2*a2 - b_12 - b_32)",
+        "Delta_in_d": "d_{2->1} d_{1->2} d_{3->2} d_{2->3} (d_{1->2} - d_{3->2}) (d_{1->2} + d_{3->2})",
+        "P12": "-a1*x1 + a2*x2 - b_12*x2 + b_21*x1",
+        "P23": "-a2*x2 + a3*x3 - b_23*x3 + b_32*x2",
+        "cofactor_P12": "a1*x1 + a2*x2 + b_23*x3",
+        "cofactor_P23": "a2*x2 + a3*x3 + b_21*x1",
+        "d": {
+          "d_{1->2}": "b_12 - a2",
+          "d_{2->1}": "b_21 - a1",
+          "d_{2->3}": "b_23 - a3",
+          "d_{3->2}": "b_32 - a2"
+        }
+      }
+    },
+    "h_van_der_Kamp_13_parameter_system": {
+      "cone_circuit_size_profiles": {
+        "((()())())": {
+          "3": 4,
+          "4": 4,
+          "5": 2
+        },
+        "((())(()))": {
+          "3": 4,
+          "4": 3,
+          "5": 2,
+          "6": 1
+        },
+        "(()()()())": {
+          "3": 4,
+          "4": 6
+        }
+      },
+      "cone_tree_codes": [
+        "((()())())",
+        "((())(()))",
+        "(()()()())"
+      ],
+      "isomorphism_routine_selftest": {
+        "((()())())": {
+          "((()())())": true,
+          "((())(()))": false,
+          "(()()()())": false
+        },
+        "((())(()))": {
+          "((()())())": false,
+          "((())(()))": true,
+          "(()()()())": false
+        },
+        "(()()()())": {
+          "((()())())": false,
+          "((())(()))": false,
+          "(()()()())": true
+        }
+      },
+      "isomorphism_routine_selftest_status": "PASS",
+      "label": "exploratory",
+      "note": "Exploratory: records the complete linear Darboux structure of matrix (34) of arXiv:2411.18264v4 at 5 deterministic integer points; status PASS means the computation completed, not that any expectation holds.",
+      "points": [
+        {
+          "circuit_size_profile": {
+            "3": 4,
+            "4": 3,
+            "5": 3,
+            "6": 1
+          },
+          "isomorphic_to_cone_matroid_of_tree": {
+            "((()())())": false,
+            "((())(()))": false,
+            "(()()()())": false
+          },
+          "matrix": [
+            [
+              "-5",
+              "4",
+              "3",
+              "9",
+              "3"
+            ],
+            [
+              "-6",
+              "2",
+              "3",
+              "9",
+              "3"
+            ],
+            [
+              "9",
+              "4",
+              "9",
+              "9",
+              "3"
+            ],
+            [
+              "-6",
+              "-1",
+              "3",
+              "-1",
+              "3"
+            ],
+            [
+              "-8",
+              "-4",
+              "3",
+              "9",
+              "5"
+            ]
+          ],
+          "params_a1_to_a13": [
+            -5,
+            4,
+            3,
+            -6,
+            2,
+            9,
+            9,
+            -1,
+            -1,
+            -4,
+            3,
+            9,
+            5
+          ],
+          "pencils": [],
+          "rank": 5,
+          "ray_count": 9,
+          "rays": [
+            {
+              "coefficients": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                1
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                1,
+                2
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "2",
+                "0",
+                "0",
+                "-2/3"
+              ],
+              "support": [
+                1,
+                2,
+                5
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "0",
+                "3/7",
+                "0",
+                "0"
+              ],
+              "support": [
+                1,
+                3
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                2
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "1",
+                "0",
+                "10/3",
+                "0"
+              ],
+              "support": [
+                2,
+                4
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "support": [
+                3
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "support": [
+                4
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "support": [
+                5
+              ]
+            }
+          ],
+          "three_circuit_count": 4,
+          "three_circuits": [
+            [
+              [
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2
+              ]
+            ],
+            [
+              [
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                5
+              ],
+              [
+                5
+              ]
+            ],
+            [
+              [
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                4
+              ]
+            ]
+          ]
+        },
+        {
+          "circuit_size_profile": {
+            "3": 4,
+            "4": 3,
+            "5": 3,
+            "6": 1
+          },
+          "isomorphic_to_cone_matroid_of_tree": {
+            "((()())())": false,
+            "((())(()))": false,
+            "(()()()())": false
+          },
+          "matrix": [
+            [
+              "-4",
+              "-7",
+              "7",
+              "4",
+              "-9"
+            ],
+            [
+              "-5",
+              "-5",
+              "7",
+              "4",
+              "-9"
+            ],
+            [
+              "4",
+              "-7",
+              "-5",
+              "4",
+              "-9"
+            ],
+            [
+              "-5",
+              "9",
+              "7",
+              "-7",
+              "-9"
+            ],
+            [
+              "-5/2",
+              "-8",
+              "7",
+              "4",
+              "-1"
+            ]
+          ],
+          "params_a1_to_a13": [
+            -4,
+            -7,
+            -9,
+            -5,
+            -5,
+            4,
+            -5,
+            9,
+            -7,
+            -8,
+            7,
+            4,
+            -1
+          ],
+          "pencils": [],
+          "rank": 5,
+          "ray_count": 9,
+          "rays": [
+            {
+              "coefficients": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                1
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "-2",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                1,
+                2
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "-2",
+                "0",
+                "0",
+                "16/3"
+              ],
+              "support": [
+                1,
+                2,
+                5
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "0",
+                "-3/2",
+                "0",
+                "0"
+              ],
+              "support": [
+                1,
+                3
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                2
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "1",
+                "0",
+                "-11/14",
+                "0"
+              ],
+              "support": [
+                2,
+                4
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "support": [
+                3
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "support": [
+                4
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "support": [
+                5
+              ]
+            }
+          ],
+          "three_circuit_count": 4,
+          "three_circuits": [
+            [
+              [
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2
+              ]
+            ],
+            [
+              [
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                5
+              ],
+              [
+                5
+              ]
+            ],
+            [
+              [
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                4
+              ]
+            ]
+          ]
+        },
+        {
+          "circuit_size_profile": {
+            "3": 4,
+            "4": 3,
+            "5": 3,
+            "6": 1
+          },
+          "isomorphic_to_cone_matroid_of_tree": {
+            "((()())())": false,
+            "((())(()))": false,
+            "(()()()())": false
+          },
+          "matrix": [
+            [
+              "4",
+              "2",
+              "4",
+              "-7",
+              "8"
+            ],
+            [
+              "-7",
+              "4",
+              "4",
+              "-7",
+              "8"
+            ],
+            [
+              "-5",
+              "2",
+              "-3",
+              "-7",
+              "8"
+            ],
+            [
+              "-7",
+              "-1",
+              "4",
+              "3",
+              "8"
+            ],
+            [
+              "37",
+              "-2",
+              "4",
+              "-7",
+              "0"
+            ]
+          ],
+          "params_a1_to_a13": [
+            4,
+            2,
+            8,
+            -7,
+            4,
+            -5,
+            -3,
+            -1,
+            3,
+            -2,
+            4,
+            -7,
+            0
+          ],
+          "pencils": [],
+          "rank": 5,
+          "ray_count": 9,
+          "rays": [
+            {
+              "coefficients": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                1
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "-2/11",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                1,
+                2
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "-2/11",
+                "0",
+                "0",
+                "-8/33"
+              ],
+              "support": [
+                1,
+                2,
+                5
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "0",
+                "7/9",
+                "0",
+                "0"
+              ],
+              "support": [
+                1,
+                3
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                2
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "1",
+                "0",
+                "-2",
+                "0"
+              ],
+              "support": [
+                2,
+                4
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "support": [
+                3
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "support": [
+                4
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "support": [
+                5
+              ]
+            }
+          ],
+          "three_circuit_count": 4,
+          "three_circuits": [
+            [
+              [
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2
+              ]
+            ],
+            [
+              [
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                5
+              ],
+              [
+                5
+              ]
+            ],
+            [
+              [
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                4
+              ]
+            ]
+          ]
+        },
+        {
+          "circuit_size_profile": {
+            "3": 4,
+            "4": 3,
+            "5": 3,
+            "6": 1
+          },
+          "isomorphic_to_cone_matroid_of_tree": {
+            "((()())())": false,
+            "((())(()))": false,
+            "(()()()())": false
+          },
+          "matrix": [
+            [
+              "-2",
+              "-1",
+              "-3",
+              "-6",
+              "-5"
+            ],
+            [
+              "-3",
+              "-6",
+              "-3",
+              "-6",
+              "-5"
+            ],
+            [
+              "3",
+              "-1",
+              "-7",
+              "-6",
+              "-5"
+            ],
+            [
+              "-3",
+              "-4",
+              "-3",
+              "5",
+              "-5"
+            ],
+            [
+              "-2/5",
+              "2",
+              "-3",
+              "-6",
+              "-1"
+            ]
+          ],
+          "params_a1_to_a13": [
+            -2,
+            -1,
+            -5,
+            -3,
+            -6,
+            3,
+            -7,
+            -4,
+            5,
+            2,
+            -3,
+            -6,
+            -1
+          ],
+          "pencils": [],
+          "rank": 5,
+          "ray_count": 9,
+          "rays": [
+            {
+              "coefficients": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                1
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "5",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                1,
+                2
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "5",
+                "0",
+                "0",
+                "5/2"
+              ],
+              "support": [
+                1,
+                2,
+                5
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "0",
+                "-4/5",
+                "0",
+                "0"
+              ],
+              "support": [
+                1,
+                3
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                2
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "1",
+                "0",
+                "11/2",
+                "0"
+              ],
+              "support": [
+                2,
+                4
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "support": [
+                3
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "support": [
+                4
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "support": [
+                5
+              ]
+            }
+          ],
+          "three_circuit_count": 4,
+          "three_circuits": [
+            [
+              [
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2
+              ]
+            ],
+            [
+              [
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                5
+              ],
+              [
+                5
+              ]
+            ],
+            [
+              [
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                4
+              ]
+            ]
+          ]
+        },
+        {
+          "circuit_size_profile": {
+            "3": 4,
+            "4": 3,
+            "5": 3,
+            "6": 1
+          },
+          "isomorphic_to_cone_matroid_of_tree": {
+            "((()())())": false,
+            "((())(()))": false,
+            "(()()()())": false
+          },
+          "matrix": [
+            [
+              "4",
+              "3",
+              "4",
+              "2",
+              "8"
+            ],
+            [
+              "-5",
+              "-7",
+              "4",
+              "2",
+              "8"
+            ],
+            [
+              "3",
+              "3",
+              "2",
+              "2",
+              "8"
+            ],
+            [
+              "-5",
+              "-5",
+              "4",
+              "7",
+              "8"
+            ],
+            [
+              "29/5",
+              "-5",
+              "4",
+              "2",
+              "-2"
+            ]
+          ],
+          "params_a1_to_a13": [
+            4,
+            3,
+            8,
+            -5,
+            -7,
+            3,
+            2,
+            -5,
+            7,
+            -5,
+            4,
+            2,
+            -2
+          ],
+          "pencils": [],
+          "rank": 5,
+          "ray_count": 9,
+          "rays": [
+            {
+              "coefficients": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                1
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "10/9",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                1,
+                2
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "10/9",
+                "0",
+                "0",
+                "-50/9"
+              ],
+              "support": [
+                1,
+                2,
+                5
+              ]
+            },
+            {
+              "coefficients": [
+                "1",
+                "0",
+                "2",
+                "0",
+                "0"
+              ],
+              "support": [
+                1,
+                3
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "support": [
+                2
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "1",
+                "0",
+                "5/2",
+                "0"
+              ],
+              "support": [
+                2,
+                4
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "support": [
+                3
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "support": [
+                4
+              ]
+            },
+            {
+              "coefficients": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "support": [
+                5
+              ]
+            }
+          ],
+          "three_circuit_count": 4,
+          "three_circuits": [
+            [
+              [
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2
+              ]
+            ],
+            [
+              [
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                5
+              ],
+              [
+                5
+              ]
+            ],
+            [
+              [
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                4
+              ]
+            ]
+          ]
+        }
+      ],
+      "status": "PASS"
+    },
+    "i_kahan_identity": {
+      "failure_count": 0,
+      "failures": [],
+      "label": "exact computation",
+      "statement": "Symbolically (sympy): for every ray P of the generic P3 system and for the coordinate rays of a general 3x3 matrix, P(B(x,y)) = (P(x)C(y)+P(y)C(x))/2 and P(y)(1-hC(x)/2) - P(x)(1+hC(y)/2) = P(y-x) - h P(B(x,y)) identically, so the Kahan relation y - x = h B(x,y) gives P(x')(1-hC(x)/2) = P(x)(1+hC(x')/2). For general linear P, C and a general 3x3 matrix, P(B(x,y)) - (P(x)C(y)+P(y)C(x))/2 is the polarisation of P(x*Ax) - P(x)C(x).",
+      "status": "PASS"
+    },
+    "j_constant_growth_rate": {
+      "failure_count": 0,
+      "failures": [],
+      "label": "exact computation",
+      "params": {
+        "a": [
+          6,
+          6,
+          -1
+        ],
+        "d": {
+          "d_0->1": 4,
+          "d_1->0": 30,
+          "d_1->2": 31,
+          "d_2->1": 52
+        }
+      },
+      "ray_count": 5,
+      "statement": "For a generic exact P3 point, the complete rays of x' = x(7 + Ax) equal those of x' = x(Ax) (cofactor shifted by the constant 7), each verified coefficientwise.",
+      "status": "PASS"
+    },
+    "k_orthant_bases": {
+      "cases": {
+        "positive_d": {
+          "bases_tested": 21,
+          "d": {
+            "d_0->1": 26,
+            "d_1->0": 1,
+            "d_1->2": 39,
+            "d_2->1": 16,
+            "d_2->3": 16,
+            "d_3->2": 50
+          },
+          "passing_bases": [
+            [
+              "s0",
+              "s1",
+              "s2",
+              "s3"
+            ]
+          ]
+        },
+        "signed_d": {
+          "bases_tested": 21,
+          "d": {
+            "d_0->1": 15,
+            "d_1->0": 43,
+            "d_1->2": -43,
+            "d_2->1": 40,
+            "d_2->3": 44,
+            "d_3->2": -28
+          },
+          "passing_bases": [
+            [
+              "s0",
+              "s1",
+              "s2",
+              "s3"
+            ]
+          ]
+        }
+      },
+      "failure_count": 0,
+      "failures": [],
+      "label": "exact computation",
+      "statement": "For P4 at a generic positive and a generic mixed-sign exact point, among the 21 cone spanning-tree bases only the all-spokes basis admits row signs D with DB >= 0 and (DB)^{-1} >= 0 (equivalently, only it is monomial).",
+      "status": "PASS"
+    }
+  },
+  "seeds": "random.Random with fixed string seeds",
+  "status": "PASS"
+}

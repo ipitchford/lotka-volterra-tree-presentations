@@ -1,0 +1,208 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 22 October 2026 at publication from the dated bounded novelty audit of the research bundle (searches 20 October 2026; kept privately because it contains working notes and private assessments), the internal review records and the AI-assisted adversarial reviews of 22 October 2026. Publication intake (22 October 2026) also confirmed that no earlier Evidence Press release concerns van der Kamp's Conjecture 12 (arXiv:2411.18264; doi 10.1007/s10884-025-10446-2): site repository and live feed searched. It documents the scrutiny performed, not historical priority.",
+ "contributionMap": [
+  {
+   "claim": "Method: identify the complete linear Darboux set with the graphic arrangement (cycle matroid) of the cone over the tree, and use triangle/cofactor conditions (Lemma 3.5) and Whitney's line-graph theorem to recover the tree from any LV coordinate presentation",
+   "unit": "method",
+   "paperLocation": "Section 3 (Lemma 3.1, Lemma 3.3, Lemma 3.5)",
+   "searches": [
+    {
+     "date": "2026-10-20",
+     "query": "\"Lotka\" \"Darboux\" \"matroid\"; \"Darboux\" \"graphic arrangement\"; \"Lotka-Volterra\" \"hyperplane arrangements\"; \"cone\" \"tree\" \"matroid\" recovery triangles",
+     "corpus": "live web search (two engines), arXiv full texts, publisher and author pages, OEIS"
+    }
+   ],
+   "closestPriorWork": "Graph recovery from cone matroids via triangles (Proudfoot-Ramos 2019, Remark 1.1) and Whitney's theorems are classical and credited; arrangement-theoretic language for Lotka-Volterra Darboux sets was not found in the bounded search",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Complete linear Darboux list of tree systems with an exact (necessary and sufficient) genericity condition Delta_T != 0, and the codimension-one strata (Theorem 2.3, Proposition 2.5)",
+   "unit": "statement",
+   "paperLocation": "Section 2",
+   "searches": [
+    {
+     "date": "2026-10-20",
+     "query": "\"Lotka\" \"Darboux\" \"tree\" complete list linear; \"Lotka-Volterra\" \"linear Darboux polynomials\" trees superintegrable; \"Darboux\" \"graphic arrangement\"",
+     "corpus": "live web search (two engines), arXiv full texts, publisher and author pages, OEIS"
+    }
+   ],
+   "closestPriorWork": "Quispel-Tapley-McLaren-van der Kamp (2023) and van der Kamp-Quispel-McLaren (2024) construct the edge polynomials and prove superintegrability for generic parameters; completeness of the list with a sharp condition was not found stated there; the Darboux test is the homogeneous case of van der Kamp (2026) Lemma 2",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Van der Kamp's Conjecture 12 (generic) proved in one-sided form; all-parameter extension fails (Theorem 3.6, Corollary 3.7, Proposition 3.8)",
+   "unit": "statement",
+   "paperLocation": "Section 3",
+   "searches": [
+    {
+     "date": "2026-10-20",
+     "query": "\"Lotka\" \"Conjecture 12\"; \"Lotka\" \"nonisomorphic trees\" proof; \"Lotka\" \"Darboux\" \"matroid\"; citing works of arXiv:2411.18264",
+     "corpus": "live web search (two engines), arXiv full texts, publisher and author pages, OEIS"
+    },
+    {
+     "date": "2026-10-22",
+     "query": "Evidence Press site repository and live feed.json: Lotka, Volterra, van der Kamp, Darboux, 2411.18264, 10884-025",
+     "corpus": "evidence-press-site main and https://evidencepress.org/feed.json"
+    }
+   ],
+   "closestPriorWork": "Van der Kamp (2026) states the conjecture after computing classes for n <= 8; no resolution found. Tree recovery from a cone matroid via triangles is in Proudfoot-Ramos (2019) Remark 1.1 and Whitney's line-graph theorem (cited)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "All LV coordinate presentations as spanning trees of Cone(T); symmetry group (C_2)^leaves x| Aut(T); core-forest reduction (Theorems 4.2, 5.2, 6.3)",
+   "unit": "statement",
+   "paperLocation": "Sections 4-6",
+   "searches": [
+    {
+     "date": "2026-10-20",
+     "query": "\"cone\" \"tree\" \"matroid\" \"automorphism\"; \"tree\" \"cone\" \"spanning trees\" \"orbits\"; \"rooted forests\" \"automorphisms\" \"cone\"",
+     "corpus": "live web search (two engines), arXiv full texts, publisher and author pages, OEIS"
+    }
+   ],
+   "closestPriorWork": "Spanning-tree counts of cones over trees: Reiner-Smith (2024) and earlier references; matrix-forest theorem: Chebotarev-Shamis; Whitney 2-isomorphism. The classification of presentations and its quotient are the contribution",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Path count (F_{2n-2}+F_{n-1})/2 and caterpillar formula (Theorems 7.1, 7.2)",
+   "unit": "statement",
+   "paperLocation": "Section 7",
+   "searches": [
+    {
+     "date": "2026-10-20",
+     "query": "\"1, 2, 5, 12, 30, 76, 195\"; OEIS A051450; rational generating function factors",
+     "corpus": "OEIS entry and live web search"
+    }
+   ],
+   "closestPriorWork": "OEIS A051450 records the same numbers and formula (positive rational knots, index shifted); no bijection is claimed; the derivation as a presentation count is the contribution",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Tangent-field characterisation, recognition test, Kahan transfer, positivity (Proposition 3.2, Theorem 8.1, Proposition 8.3, Remark 8.4)",
+   "unit": "statement",
+   "paperLocation": "Sections 3 and 8",
+   "searches": [
+    {
+     "date": "2026-10-20",
+     "query": "\"logarithmic vector fields\" \"hyperplane arrangements\" \"quadratic\"; \"Lotka-Volterra\" \"hyperplane arrangements\"; Abe-Murai 2026 graphic arrangement vector fields; Kahan Darboux polynomials preserved",
+     "corpus": "live web search (two engines), arXiv full texts, publisher and author pages, OEIS"
+    }
+   ],
+   "closestPriorWork": "Tohaneanu (2016) quadratic logarithmic derivations; Abe-Murai (2026) graphic-arrangement derivation modules; Celledoni et al. (2019) Kahan preservation of affine Darboux polynomials; Johnston-Siegel (2011) linear conjugacy of reaction networks",
+   "verdict": "partially-known-cited"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "van der Kamp, arXiv:2411.18264v4 (J. Dyn. Diff. Equat. 38 (2026) 1331-1352)",
+   "usedFor": "Definition of LV-equivalence, generic convention, procedure, Conjecture 12, Table 7, Figure 15, 13-parameter system (34)",
+   "readWhat": "Introduction, Sections 3-5, Table 7, appendix",
+   "date": "2026-10-20",
+   "evidenceLocator": "https://arxiv.org/abs/2411.18264v4; manuscript Section 1.3"
+  },
+  {
+   "citation": "Quispel, Tapley, McLaren and van der Kamp, J. Phys. A 56 (2023) 315201 (arXiv:2303.00229)",
+   "usedFor": "Tree-system construction and edge polynomials",
+   "readWhat": "Sections 3-5",
+   "date": "2026-10-20",
+   "evidenceLocator": "https://arxiv.org/abs/2303.00229"
+  },
+  {
+   "citation": "van der Kamp, Quispel and McLaren, Math. Phys. Anal. Geom. 27 (2024) 25 (arXiv:2311.15169)",
+   "usedFor": "Branch parametrisation, superintegrability",
+   "readWhat": "Definitions 3 and 5, Proposition 9",
+   "date": "2026-10-20",
+   "evidenceLocator": "https://arxiv.org/abs/2311.15169"
+  },
+  {
+   "citation": "Proudfoot and Ramos, Selecta Math. 25 (2019) 62 (arXiv:1903.10592)",
+   "usedFor": "Graph recovery from cone matroid",
+   "readWhat": "Remark 1.1 and surrounding text",
+   "date": "2026-10-20",
+   "evidenceLocator": "https://arxiv.org/abs/1903.10592"
+  },
+  {
+   "citation": "Reiner and Smith, Res. Math. Sci. 11 (2024) 59 (arXiv:2402.15453)",
+   "usedFor": "Spanning-tree counts of cones",
+   "readWhat": "Theorems 1.3-1.4 (arXiv text)",
+   "date": "2026-10-20",
+   "evidenceLocator": "https://arxiv.org/abs/2402.15453"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Points where two or more factors of Delta_T vanish",
+   "closingQuestion": "What is the complete Darboux set there, and which special systems of different families are conjugate?",
+   "triedOrSearched": "Pencil example noted; single-factor strata classified",
+   "estimatedCost": "research project",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Open problem in Section 10",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Identification of q(T) with the source's equivalence classes for all n",
+   "closingQuestion": "Does the general class attached to each H_S consist only of S-presentations of tree systems?",
+   "triedOrSearched": "Agreement with Table 7 for n <= 8; identification via the source's quoted procedure",
+   "estimatedCost": "research project",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Open problem in Section 10",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Formulas beyond caterpillars; maximising trees",
+   "closingQuestion": "Structural formula for q(T) in general?",
+   "triedOrSearched": "Core-forest reduction; exact counts to n = 10",
+   "estimatedCost": "research project",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Open problem in Section 10",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Quasi-monomial equivalence; Kahan completeness; higher-degree Darboux polynomials",
+   "closingQuestion": "Do analogues hold?",
+   "triedOrSearched": "Remark 8.5; Proposition 8.3 gives one direction",
+   "estimatedCost": "research project",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Open problem in Section 10",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Wording of the conjecture claim (generic versus all parameters)",
+   "closingQuestion": "Is it stated everywhere that Conjecture 12 concerns generic parameters and that only the all-parameter extension fails?",
+   "triedOrSearched": "Manuscript abstract, Definition 1.2, Corollary 3.7, Proposition 3.8, README, records and page checked",
+   "estimatedCost": "15 min",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": "Closed by explicit wording after the adversarial review"
+  },
+  {
+   "limitation": "13-parameter system classified only at five sample points",
+   "closingQuestion": "Is the label exploratory wherever it appears?",
+   "triedOrSearched": "Example 8.2 labelled exploratory; records and page labelled",
+   "estimatedCost": "10 min",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": "Closed by labelling"
+  }
+ ],
+ "extensionScout": {
+  "by": "internal AI-assisted first-round review (editor, methodology, domain, perspective and devil's-advocate roles) and AI-assisted adversarial review (OpenAI gpt-5.6-sol)",
+  "date": "2026-10-22",
+  "proposals": [
+   "E1 necessity of genericity conditions and exceptional strata",
+   "E2 one-sided genericity",
+   "E3 a further structural count"
+  ],
+  "actions": [
+   "E1 proved: Delta_T != 0 is necessary and sufficient (Theorem 2.3); single-factor strata classified (Proposition 2.5); multi-factor open",
+   "E2 proved (Lemma 3.5, Theorem 3.6)",
+   "E3 proved for caterpillars (Theorem 7.2)"
+  ]
+ }
+}

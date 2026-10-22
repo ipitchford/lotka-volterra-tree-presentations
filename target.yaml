@@ -1,0 +1,55 @@
+target_id: lv-tree-rigidity-and-coordinate-classification
+revision_date: 2026-10-22
+intended_contribution_unit: theorem
+claim:
+  exact_statement: |
+    For every finite tree T on n >= 2 vertices and every matrix A in the tree
+    family L_T (A_jj = a_j; A_ij = b_(v->j), v the neighbour of j towards i),
+    the homogeneous linear Darboux rays are exactly the n coordinate rays and one
+    ray per edge (support exactly that edge) if and only if Delta_T != 0, where
+    Delta_T is the product of all d_(v->j) = b_(v->j) - a_j and of all
+    (d_(u->j) - d_(v->j))(d_(u->j) + d_(v->j)) over neighbours u != v of j.
+    If A is in U_T = {Delta_T != 0} and the system is linearly conjugate to any
+    system with matrix in L_T' (arbitrary parameters), then T' is isomorphic to T
+    (van der Kamp's Conjecture 12, stated for generic parameters, proved in a
+    stronger one-sided form). The conjecture does not extend to all parameter
+    values: L_T and L_(T-uj+uv) meet in a hyperplane (an extension, not the
+    conjecture, fails).
+    LV-preserving linear coordinate systems of a generic T-system correspond to
+    spanning trees of Cone(T); isomorphism classes of support hypergraphs are
+    Aut M(Cone T) = (C_2)^leaves x| Aut(T) orbits, equivalently Aut(H, lambda)
+    orbits of decorated rooted forests of the internal-vertex tree H.
+  labels:
+    proof: [complete_list_iff, codim1_strata, tangent_fields_dim_2n-1, one_sided_rigidity, family_intersection, spanning_tree_presentations, matroid_automorphisms, core_forest_bijection, path_count, caterpillar_count, recognition_theorem, kahan_transfer, constant_b, positivity]
+    exact_computation: [all_trees_n_le_9_cone_bases, all_trees_n_le_10_core, table7_match_n_le_8, extension_checks_small_n]
+    exploratory: [vdK_matrix_34_not_tree_cone_at_5_points]
+    open: [multi_factor_strata, general_class_equals_presentations, formulas_beyond_caterpillars, quasi_monomial_equivalence, kahan_completeness]
+  exclusions:
+    - No classification of points where two or more factors of Delta_T vanish.
+    - No assertion that isomorphic trees make every pair of parameter values conjugate.
+    - Count of coordinate bases is not a count of nonisomorphic support hypergraphs.
+    - No nonlinear, quasi-monomial or birational classification is claimed.
+source:
+  originating_reference: "P. H. van der Kamp, Hypergraphs and Lotka-Volterra Systems with Linear Darboux Polynomials, J. Dyn. Diff. Equat. 38(3) (2026) 1331-1352, Conjecture 12 (Section 5 of arXiv:2411.18264v4)"
+  url: "https://doi.org/10.1007/s10884-025-10446-2"
+  preprint: "https://arxiv.org/abs/2411.18264v4"
+sequences:
+  - name: number_of_Darboux_rays
+    exact_values: ['3', '5', '7', '9', '11', '13']
+    natural_scalings: ['2*n-1']
+  - name: cone_spanning_tree_count_for_paths
+    exact_values: ['1', '3', '8', '21', '55', '144', '377', '987']
+    natural_scalings: ['F_(2*n)']
+  - name: support_hypergraph_count_for_paths_n_ge_2
+    exact_values: ['1', '2', '5', '12', '30', '76', '195', '504', '1309', '3410']
+    natural_scalings: ['(F_(2n-2)+F_(n-1))/2', 'OEIS A051450']
+  - name: tangent_quadratic_field_dimension
+    exact_values: ['3', '5', '7', '9', '11']
+    natural_scalings: ['2*n-1']
+known_invariants:
+  number_of_rays: '2*n-1'
+  rank: n
+  three_element_circuits: 'n-1, indexed by edges of T'
+  graph_of_intersecting_three_circuits: 'line graph of T'
+  number_of_ray_bases: 'det(I+L(T))'
+replay: 'python3 verify_all.py (byte-identical; about 25 s)'

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research candidate by its DOI."
+title: "Linear coordinate presentations of Lotka–Volterra tree systems and a proof of van der Kamp's tree conjecture"
+type: software
+authors:
+  - name: Anonymous
+version: 1.0.0-candidate
+doi: 10.5281/zenodo.23564794
+date-released: 2026-10-22
+repository-code: "https://github.com/ipitchford/lotka-volterra-tree-presentations"
+url: "https://evidencepress.org/releases/lotka-volterra-tree-presentations/"
+license: CC0-1.0
+keywords:
+  - Lotka-Volterra systems
+  - Darboux polynomials
+  - superintegrable systems
+  - graphic arrangements
+  - spanning trees
+abstract: "Proof of van der Kamp's Conjecture 12 (nonisomorphic trees are not LV-equivalent, for generic parameters) in a one-sided form: a generic system of one tree family is never linearly conjugate to any system of the family of a nonisomorphic tree. The all-parameter extension fails. Also: the complete linear Darboux list with an exact genericity condition, all Lotka-Volterra coordinate presentations (spanning trees of the cone over the tree), their symmetry quotient and counts for paths and caterpillars, a recognition test and transfer to Kahan maps. Unrefereed candidate. Original code is MIT-licensed; see LICENSES.md."
+references:
+  - type: article
+    title: "Hypergraphs and Lotka-Volterra systems with linear Darboux polynomials"
+    authors:
+      - family-names: van der Kamp
+        given-names: Peter H.
+    journal: "Journal of Dynamics and Differential Equations"
+    volume: 38
+    year: 2026
+    doi: 10.1007/s10884-025-10446-2

@@ -1,0 +1,199 @@
+{
+ "schemaVersion": "1.0",
+ "release": "lotka-volterra-tree-presentations",
+ "version": "1.0.0-candidate",
+ "doi": "10.5281/zenodo.23564794",
+ "conceptDoi": "10.5281/zenodo.23564793",
+ "creator": "Anonymous",
+ "status": "unrefereed-candidate",
+ "manuscript": "lotka_volterra_tree_classification.pdf",
+ "sources": [
+  {
+   "citation": "P. H. van der Kamp, Hypergraphs and Lotka–Volterra systems with linear Darboux polynomials, J. Dyn. Diff. Equat. 38(3) (2026) 1331–1352, doi:10.1007/s10884-025-10446-2 (arXiv:2411.18264v4)",
+   "doi": "10.1007/s10884-025-10446-2",
+   "openVersion": "arXiv:2411.18264v4",
+   "conjecture": "Conjecture 12 (Section 5): Nonisomorphic trees are not LV-equivalent; generic parameters by the source's convention (Section 1)"
+  }
+ ],
+ "boundary": "'proof' means a written proof in the manuscript, valid for all finite trees, not formal verification; 'exact computation' means finite exact-arithmetic computation confirming instances; 'exploratory' is computation at sample points supporting a statement not proved in general; 'open' is not claimed. Internal AI-assisted review is not peer review or independent reproduction.",
+ "claims": [
+  {
+   "id": "complete-darboux-list",
+   "location": "Theorem 2.3",
+   "status": "proof",
+   "statement": "For A in L_T, the homogeneous linear Darboux rays are exactly the n coordinate rays and one ray per edge (support that edge) if and only if Delta_T != 0; then there are exactly 2n-1 rays.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "codim1-strata",
+   "location": "Proposition 2.5",
+   "status": "proof",
+   "statement": "Complete Darboux set where exactly one factor of Delta_T vanishes: one edge ray lost, or one extra ray of support {u,v} or {u,j,v}.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "tangent-fields",
+   "location": "Proposition 3.2",
+   "status": "proof",
+   "statement": "The normalised tree family is exactly the space of homogeneous quadratic vector fields tangent to the graphic arrangement of Cone(T); dimension 2n-1.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "tree-rigidity",
+   "location": "Theorem 3.4",
+   "status": "proof",
+   "statement": "The complete Darboux set of a generic tree system determines the tree up to isomorphism.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "one-sided-rigidity",
+   "location": "Theorem 3.6, Corollary 3.7",
+   "status": "proof",
+   "statement": "If a system in U_T is linearly conjugate to a system in L_T' (arbitrary parameters), then T and T' are isomorphic; hence van der Kamp's Conjecture 12 (generic parameters) holds, in this stronger one-sided form.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "family-intersection",
+   "location": "Proposition 3.8",
+   "status": "proof",
+   "statement": "The all-parameter extension of the conjecture fails: L_T and L_(T-uj+uv) meet in a hyperplane; explicit matrix in L_P4 and L_K13. This does not affect Conjecture 12, which concerns generic parameters.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "all-presentations",
+   "location": "Theorem 4.2",
+   "status": "proof",
+   "statement": "LV-preserving linear coordinate systems of a generic T-system correspond to spanning trees of Cone(T) (det(I+L_T) of them); supports are fundamental paths.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "matroid-automorphisms",
+   "location": "Proposition 5.1, Theorem 5.2",
+   "status": "proof",
+   "statement": "Isomorphic support hypergraphs are exactly orbits of Aut M(Cone T) = (C_2)^leaves x| Aut(T).",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "core-forests",
+   "location": "Theorem 6.3",
+   "status": "proof",
+   "statement": "Orbit classification reduces to Aut(H, lambda)-orbits of decorated rooted forests of the internal-vertex tree H.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "path-count",
+   "location": "Theorem 7.1",
+   "status": "proof",
+   "statement": "q(P_n) = (F_{2n-2} + F_{n-1})/2 (OEIS A051450 with shifted index; no bijection claimed).",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "caterpillar-count",
+   "location": "Theorem 7.2",
+   "status": "proof",
+   "statement": "Burnside formula for q(T) for every caterpillar.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "recognition",
+   "location": "Theorem 8.1",
+   "status": "proof",
+   "statement": "A quadratic system is linearly conjugate to a U_T-system iff its linear Darboux rays are 2n-1 in number with matroid isomorphic to M(Cone T).",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "kahan-transfer",
+   "location": "Proposition 8.3",
+   "status": "proof",
+   "statement": "Every ray of D_T is a discrete Darboux polynomial of the Kahan map in every presentation.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "constant-growth",
+   "location": "Remark 2.6",
+   "status": "proof",
+   "statement": "Constant linear growth rate b: Darboux-set, presentation and counting results unchanged; tangent-field, recognition and Kahan statements modified as stated.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "positivity",
+   "location": "Remark 8.4",
+   "status": "proof",
+   "statement": "Within orthant-preserving linear changes, the original tree presentation is the only one.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  },
+  {
+   "id": "counts-n-le-10",
+   "location": "Section 9, Table 2",
+   "status": "exact computation",
+   "statement": "All 94 trees with n<=9 (cone bases) and all 200 trees with n<=10 (core forests); multisets equal van der Kamp's Table 7 for n<=8.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf",
+    "data/verification.json",
+    "data/lv_core_counts.json",
+    "data/direct_hypergraph_verification.json"
+   ]
+  },
+  {
+   "id": "extension-checks",
+   "location": "Section 9 (d)",
+   "status": "exact computation",
+   "statement": "Checks of every new statement for small n (data/extensions_verification.json).",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf",
+    "data/verification.json",
+    "data/lv_core_counts.json",
+    "data/direct_hypergraph_verification.json"
+   ]
+  },
+  {
+   "id": "vdk-13-parameter",
+   "location": "Example 8.2",
+   "status": "exploratory",
+   "statement": "Van der Kamp's 13-parameter system (34): at five sample points its 9 rays do not form a tree-cone matroid.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf",
+    "data/extensions_verification.json"
+   ]
+  },
+  {
+   "id": "open-problems",
+   "location": "Section 10",
+   "status": "open",
+   "statement": "Multi-factor strata; general class equals presentations for all n; formulas beyond caterpillars; quasi-monomial equivalence; Kahan completeness.",
+   "evidence": [
+    "lotka_volterra_tree_classification.pdf"
+   ]
+  }
+ ]
+}

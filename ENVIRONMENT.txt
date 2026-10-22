@@ -1,0 +1,6 @@
+Authoring and replay environment (22 October 2026)
+OS: macOS (Apple silicon)
+Python 3.13 with SymPy (venv analysis-py313); negative_controls.py needs the standard library only
+LaTeX: pdfLaTeX (TinyTeX / TeX Live), three passes; bibliography inline (thebibliography)
+verify_all.py reruns the four verifiers into a temporary directory and compares every output with data/ byte for byte.
+Outputs are deterministic: exact arithmetic, fixed seeds, sorted keys, no timings or paths.

@@ -1,0 +1,343 @@
+{
+  "bases_checked": 986,
+  "max_n": 6,
+  "method": "Fundamental paths, followed by all n! hypergraph vertex relabellings.",
+  "records": [
+    {
+      "bases": 3,
+      "direct_hypergraph_classes": 1,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "generator_orbit_classes": 1,
+      "label": "exact computation",
+      "n": 2,
+      "status": "PASS"
+    },
+    {
+      "bases": 8,
+      "direct_hypergraph_classes": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "generator_orbit_classes": 2,
+      "label": "exact computation",
+      "n": 3,
+      "status": "PASS"
+    },
+    {
+      "bases": 21,
+      "direct_hypergraph_classes": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "generator_orbit_classes": 5,
+      "label": "exact computation",
+      "n": 4,
+      "status": "PASS"
+    },
+    {
+      "bases": 20,
+      "direct_hypergraph_classes": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "generator_orbit_classes": 2,
+      "label": "exact computation",
+      "n": 4,
+      "status": "PASS"
+    },
+    {
+      "bases": 52,
+      "direct_hypergraph_classes": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "generator_orbit_classes": 8,
+      "label": "exact computation",
+      "n": 5,
+      "status": "PASS"
+    },
+    {
+      "bases": 55,
+      "direct_hypergraph_classes": 12,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "generator_orbit_classes": 12,
+      "label": "exact computation",
+      "n": 5,
+      "status": "PASS"
+    },
+    {
+      "bases": 48,
+      "direct_hypergraph_classes": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "generator_orbit_classes": 2,
+      "label": "exact computation",
+      "n": 5,
+      "status": "PASS"
+    },
+    {
+      "bases": 144,
+      "direct_hypergraph_classes": 30,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "generator_orbit_classes": 30,
+      "label": "exact computation",
+      "n": 6,
+      "status": "PASS"
+    },
+    {
+      "bases": 124,
+      "direct_hypergraph_classes": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "generator_orbit_classes": 8,
+      "label": "exact computation",
+      "n": 6,
+      "status": "PASS"
+    },
+    {
+      "bases": 136,
+      "direct_hypergraph_classes": 21,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "generator_orbit_classes": 21,
+      "label": "exact computation",
+      "n": 6,
+      "status": "PASS"
+    },
+    {
+      "bases": 128,
+      "direct_hypergraph_classes": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "generator_orbit_classes": 5,
+      "label": "exact computation",
+      "n": 6,
+      "status": "PASS"
+    },
+    {
+      "bases": 135,
+      "direct_hypergraph_classes": 18,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "generator_orbit_classes": 18,
+      "label": "exact computation",
+      "n": 6,
+      "status": "PASS"
+    },
+    {
+      "bases": 112,
+      "direct_hypergraph_classes": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "generator_orbit_classes": 2,
+      "label": "exact computation",
+      "n": 6,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "trees_checked": 13
+}
